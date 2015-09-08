@@ -1,5 +1,11 @@
 # Payload
 
+[![Build Status](https://travis-ci.org/JoeBengalen/Payload.svg?branch=master)](https://travis-ci.org/JoeBengalen/Payload)
+[![Coverage Status](https://coveralls.io/repos/JoeBengalen/Payload/badge.svg?branch=master)](https://coveralls.io/github/JoeBengalen/Payload?branch=master)
+[![SensioLabsInsight](https://insight.sensiolabs.com/projects/f1d1b5ae-3d38-4536-9eb7-c7891d40fdfd/mini.png)](https://insight.sensiolabs.com/projects/f1d1b5ae-3d38-4536-9eb7-c7891d40fdfd)
+[![Total Downloads](https://poser.pugx.org/joebengalen/payload/downloads)](https://packagist.org/packages/joebengalen/payload)
+[![License](https://poser.pugx.org/joebengalen/payload/license)](LICENSE.md)
+
 Payload is a data transfer object between the domain layer and the application
 layer. The idea is that for every method you call on the domain service/access
 layer (domain API), you will receive a Payload instance as answer.
