@@ -1,0 +1,4 @@
+suites:
+    validate_suite:
+        namespace: JoeBengalen\Payload
+        psr4_prefix: JoeBengalen\Payload
