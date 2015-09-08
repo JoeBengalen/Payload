@@ -1,0 +1,29 @@
+{
+    "name": "joebengalen/payload",
+    "type": "library",
+    "description": "Domain payload library",
+    "keywords": ["domain", "payload"],
+    "homepage": "https://github.com/JoeBengalen/Payload",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martijn Wennink",
+            "email": "joebengalen@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/JoeBengalen/Payload/issues",
+        "source": "https://github.com/JoeBengalen/Payload"
+    },
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "JoeBengalen\\Payload\\": "src"
+        }
+    }
+}
