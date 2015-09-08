@@ -1,0 +1,13 @@
+extensions:
+    - PhpSpec\Extension\CodeCoverageExtension
+
+suites:
+    validate_suite:
+        namespace: JoeBengalen\Payload
+        psr4_prefix: JoeBengalen\Payload
+
+code_coverage:
+  format:
+    - clover
+  output:
+    clover: build/logs/clover.xml
