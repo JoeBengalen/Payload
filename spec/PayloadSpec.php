@@ -7,12 +7,12 @@ use PhpSpec\ObjectBehavior;
 
 class PayloadSpec extends ObjectBehavior
 {
-    function it_is_initializable()
+    public function it_is_initializable()
     {
         $this->shouldHaveType('JoeBengalen\Payload\Payload');
     }
 
-    function it_can_hold_a_status()
+    public function it_can_hold_a_status()
     {
         $this->getStatus()->shouldReturn(null);
 
@@ -21,7 +21,7 @@ class PayloadSpec extends ObjectBehavior
         $this->getStatus()->shouldReturn(PayloadStatus::SUCCESS);
     }
 
-    function it_can_hold_a_message()
+    public function it_can_hold_a_message()
     {
         $this->getMessage()->shouldReturn(null);
 
@@ -30,7 +30,7 @@ class PayloadSpec extends ObjectBehavior
         $this->getMessage()->shouldReturn('some status message');
     }
 
-    function it_can_hold_mixed_input_data()
+    public function it_can_hold_mixed_input_data()
     {
         $this->getInput()->shouldReturn(null);
 
@@ -51,7 +51,7 @@ class PayloadSpec extends ObjectBehavior
         $this->getInput()->shouldReturn($obj);
     }
 
-    function it_can_hold_mixed_output_data()
+    public function it_can_hold_mixed_output_data()
     {
         $this->getOutput()->shouldReturn(null);
 
