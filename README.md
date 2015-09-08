@@ -5,6 +5,15 @@ layer. The idea is that for every method you call on the domain service/access
 layer (domain API), you will receive a Payload instance as answer.
 
 
+## Installation
+
+Via [Composer](https://getcomposer.org)
+
+``` bash
+$ composer require joebengalen/payload
+```
+
+
 ## Usage
 
 ### Fetch vs Command methods
@@ -137,3 +146,13 @@ Examples:
  - Message successfully marked as read
  - Invalid comment data provided
  - Could not add project
+
+
+## Change log
+
+Please see the [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+
+
+## Testing
+
+This project uses [PHPSpec](http://phpspec.net) for testing.
